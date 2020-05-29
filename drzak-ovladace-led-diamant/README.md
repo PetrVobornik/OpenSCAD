@@ -1,5 +1,10 @@
 Držák na ovladač k LED stropnímu svítidlu Diamant (viz obrázek). Předchozí model ho měl, nový nikoli a ovladače byly různé. Tak jsem se inspiroval tím předchozím držákem (už na něj byly připravené hmoždinky ve zdi) a přizpůsobil mu tvar na ovladač nový. Vytištěno s PETG (PLA by šlo určitě použít taktéž) na 3D tiskárně Průša MINI bez podpěr (váha cca 12 g, čas tisku cca 2 h) a sedí dobře.
 
+* [3D model](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-ovladace-led-diamant/drzak-ovladace-led-diamant.stl)
+* [OpenSCAD kód](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-ovladace-led-diamant/drzak-ovladace-led-diamant.scad)
+
+
+## Obrázky
 
 Během tisku
 
