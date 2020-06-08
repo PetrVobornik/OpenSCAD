@@ -1,5 +1,10 @@
 include <A2D.scad>;
 
+// Animace
+// $vpt = [0, 0, 0];
+// $vpr = [70 + 16-16*(1-2*sin($t*180)), 0, 360 * $t];
+// $vpd = 340;
+
 presah = 1;
 
 polomerVnejsiHornihoRantlu = 10/2;
@@ -64,7 +69,8 @@ lichoRantlNadZaobleniHran = 0.5;
 
 sroubR = 4.1/2;
 sroubMatkaR = 9/2;
-sroubMatkaH = 1;
+sroubMatkaH = 5;
+sroubMatkaZapusteni = 0.4;
 sroubPosUhel = atan((octaStranyBocniDelka/2) / (octaStranyBocniRoztec/2));
 sroubPosX = (polomerHlavniDiry+tloustkaZakladu+sroubMatkaR)*sin(90-sroubPosUhel);
 sroubPosY = (polomerHlavniDiry+tloustkaZakladu+sroubMatkaR)*sin(sroubPosUhel)-3; // To +3 je po pokusném tisku naměřená korekce
@@ -535,7 +541,7 @@ module Sroub() {
     translate([-sroubPosX,-sroubPosY,0])
     union() {
         translate([0,0,-tloustkaZakladu-presah]) cylinder(r=sroubR, h=tloustkaZakladu+presah*2, $fn=32); // Díra pro šroub
-        translate([0,0,-tloustkaZakladu-sroubMatkaH/2]) cylinder(r=sroubMatkaR, h=sroubMatkaH, $fn=32); // Zapuštění pro matku
+        translate([0,0,-tloustkaZakladu-sroubMatkaH+sroubMatkaZapusteni]) cylinder(r=sroubMatkaR, h=sroubMatkaH, $fn=32); // Zapuštění pro matku
     }
 }
 
@@ -575,4 +581,5 @@ module Komplet() {
     // }
 }
 
+//render()  // při animaci
 Komplet();
