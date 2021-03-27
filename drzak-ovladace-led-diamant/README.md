@@ -3,7 +3,7 @@ Držák na ovladač k LED stropnímu svítidlu Diamant (viz obrázek). Předchoz
 * [3D model](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-ovladace-led-diamant/drzak-ovladace-led-diamant.stl)
 * [OpenSCAD kód](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-ovladace-led-diamant/drzak-ovladace-led-diamant.scad)
 
-![2-drzak-model.gif](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-ovladace-led-diamant/images/2-drzak-model.gif?raw=true)
+![7-drzak-model.gif](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-ovladace-led-diamant/images/7-drzak-model.gif?raw=true)
 
 
 ## Obrázky
