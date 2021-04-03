@@ -5,12 +5,12 @@ Tentokrát jsem sáhl po originálním obalu, který ač stojí mnohem více, ž
 Napadlo mě tedy vytvořit redukci, která na jedné straně půjde upnout do držáku a na druhé straně do něj půjde přesně nasunout mobil i s obalem. Akutně jsem to potřeboval řešit pro umístění mobilu mezi monitory jakožto webkamery pro online konferenční hovory. Microsoft Teams totiž umožňuje připojit se ke schůzce z více zařízení současně, takže mobilem se připojím tak, aby pouze snímal a odesílal svůj obraz a z počítače si připojím vše ostatní (pohled na další účastníky, reproduktor, mikrofon, chat...). 
 Měl jsem selfie tyč s nožičkami, která tedy může sloužit jako stativ (kdyby ne, dal by se pro ni vytisknout stojánek jako na vánoční stromeček). Takže jsem si naměřil, jaký kvádr v držáku dobře sedí (na základě starého mobilu), ten jsem dal do kříže, aby jej bylo možné otočit i na výšku, kdyby to náhodou bylo někdy potřeba, pak jsem si naměřil mobil v otevřeném obalu a v OpenSCADu k tomu namodeloval parametrizovaný držák. Jeho milimetrový průřez jsem si na zkoušku vytiskl a vyzkoušel jestli sedí, přidal mu 0.5mm na tloušťku, no a pak to vytiskl celé (PLA, 37 gramů filamentu, doba tisku 3h 18m). 
 
-A funguje to perfektně. Na jiné držáky si kdyžtak ještě upravím ta záda, popř. je oboustrannou samolepkou připevním někde v autě, když se takováto velikost normálně sehnat nedá. A až někdy v budoucnu bude zase mobil jiných rozměrů, upravím pár proměnných a vytisknu si držák nový.![image](https://user-images.githubusercontent.com/11021768/113488954-9be4e380-94c1-11eb-83a7-ed8253511998.png)
+![7-drzak-model.gif](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/images/00-model.gif?raw=true)
+
+A funguje to perfektně. Na jiné držáky si kdyžtak ještě upravím ta záda, popř. je oboustrannou samolepkou připevním někde v autě, když se takováto velikost normálně sehnat nedá. A až někdy v budoucnu bude zase mobil jiných rozměrů, upravím pár proměnných a vytisknu si držák nový.
 
 * [3D model](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/drzak-mobilu-v-obalu.stl)
 * [OpenSCAD kód](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/drzak-mobilu-v-obalu.scad)
-
-![7-drzak-model.gif](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/images/00-model.gif?raw=true)
 
 
 ## Obrázky
@@ -21,4 +21,4 @@ Model v Siliceru s podpěrami
 
 Po tisku s podpěrami
 
-![02-podpery.jpg](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/images/01-silicer.jpg?raw=true)
+![02-podpery.jpg](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/images/02-podpery.jpg?raw=true)
