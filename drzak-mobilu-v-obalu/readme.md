@@ -12,6 +12,8 @@ A funguje to perfektně. Na jiné držáky si kdyžtak ještě upravím ta záda
 * [3D model](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/drzak-mobilu-v-obalu.stl)
 * [OpenSCAD kód](https://github.com/PetrVobornik/OpenSCAD/blob/master/drzak-mobilu-v-obalu/drzak-mobilu-v-obalu.scad)
 
+V kódu modelu jsem použil knihovnu [A2D](https://github.com/ridercz/A2D).
+
 
 ## Obrázky
 
